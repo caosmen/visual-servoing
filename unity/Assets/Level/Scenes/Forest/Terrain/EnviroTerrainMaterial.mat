@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EnviroTerrainMaterial
+  m_Shader: {fileID: 4800000, guid: 805b620febcd8e148a9c1a0da475c793, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _PUDDLES_ON
+  - _QUALITY_BALANCE
+  - _RAIN_ON
+  - _SNOW_ON
+  - _SPLATCOUNT__4
+  - _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+  m_InvalidKeywords:
+  - _CONSERVATIVE_DEPTH_OFFSET
+  - _DEPTHOFFSET_ON
+  - _DISABLE_SSR_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2225
+  stringTagMap: {}
+  disabledShaderPasses:
+  - TransparentBackface
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowAlbedo:
+        m_Texture: {fileID: 2800000, guid: 27b834a48f9909243ac06c6f3f8e209a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowMask:
+        m_Texture: {fileID: 2800000, guid: f6a1524323f57554492c86586bdea3ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormal:
+        m_Texture: {fileID: 2800000, guid: d3be6198ace0ba14cb05762000ca9853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormal:
+        m_Texture: {fileID: 2800000, guid: a27b6cd880f319446a44daf0b7fdb46d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BlendMode: 0
+    - _ConservativeDepthOffsetEnable: 1
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 1
+    - _DisplacementStrength: 0.05
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _EnviroRainIntensity: 0
+    - _EnviroSnow: 0.9999999
+    - _EnviroWetness: 0
+    - _HEIGHTBLEND: 1
+    - _HeightBlendStrength: 0.15
+    - _HeightBlending: 0.25
+    - _MipDistanceBlending: 30
+    - _OpaqueCullMode: 2
+    - _PuddleCoverageNoise: 0.25
+    - _PuddleIntensity: 2
+    - _PuddleWaveIntensity: 1
+    - _PuddleWaveTiling: 0.1
+    - _Puddles: 0
+    - _Quality: 0
+    - _Rain: 1
+    - _RainDistanceFade: 10
+    - _RainDropIntensity: 5
+    - _RainDropSpeed: 1
+    - _RainDropTiling: 0.5
+    - _RainFlowDistortionScale: 1000
+    - _RainFlowDistortionStrenght: 0.15
+    - _RainFlowIntensity: 2
+    - _RainFlowSmoothnessBoost: 2
+    - _RainFlowStrength: 1
+    - _RainFlowTiling: 0.5
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _SPLATCOUNT: 0
+    - _SSSDistortion: 0.9
+    - _SSSIntensity: 3
+    - _SSSScale: 0.5
+    - _STOCHASTIC: 0
+    - _Snow: 0
+    - _SnowDisplacement: 0.05
+    - _SnowHeightBlending: 4
+    - _SnowMetallic: 0
+    - _SnowNormalScale: 1
+    - _SnowSlopePower: 20
+    - _SnowSmoothness: 1
+    - _SnowTiling: 100
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _TessellationFactor: 10
+    - _TessellationMaxDistance: 30
+    - _TessellationMinDistance: 10
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
+    - _WetnessBoost: 0.3
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _ColorTint0: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint10: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint11: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint3: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint4: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint5: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint6: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint7: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint8: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorTint9: {r: 0, g: 0, b: 0, a: 0}
+    - _DisplacementMod0: {r: 1, g: 1, b: 1, a: 1}
+    - _DisplacementMod1: {r: 0, g: 0, b: 0, a: 0}
+    - _DisplacementMod2: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HeightContrast0: {r: 0, g: 0, b: 0, a: 0}
+    - _HeightContrast1: {r: 0, g: 0, b: 0, a: 0}
+    - _HeightContrast2: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset0: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _LayerScaleOffset1: {r: 2, g: 2, b: 0, a: 0}
+    - _LayerScaleOffset10: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset11: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset2: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _LayerScaleOffset3: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _LayerScaleOffset4: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset5: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset6: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset7: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset8: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerScaleOffset9: {r: 0, g: 0, b: 0, a: 0}
+    - _Metallic00: {r: 0, g: 0, b: 0, a: 0}
+    - _Metallic01: {r: 0, g: 0, b: 0, a: 0}
+    - _Metallic02: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalScale00: {r: 1, g: 1, b: 1, a: 1}
+    - _NormalScale01: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalScale02: {r: 0, g: 0, b: 0, a: 0}
+    - _Occlusion0: {r: 1, g: 1, b: 1, a: 1}
+    - _Occlusion1: {r: 0, g: 0, b: 0, a: 0}
+    - _Occlusion2: {r: 0, g: 0, b: 0, a: 0}
+    - _PuddleColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SamplingType0: {r: 0, g: 0, b: 0, a: 0}
+    - _SamplingType1: {r: 0, g: 0, b: 0, a: 0}
+    - _SamplingType2: {r: 0, g: 0, b: 0, a: 0}
+    - _Smoothness00: {r: 0, g: 0, b: 0, a: 0.559}
+    - _Smoothness01: {r: 0, g: 0, b: 0, a: 0}
+    - _Smoothness02: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
